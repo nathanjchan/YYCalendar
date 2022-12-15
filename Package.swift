@@ -12,17 +12,8 @@ let package = Package(
             name: "YYCalendar",
             targets: ["YYCalendar"]),
     ],
-    dependencies: [
-        // add any dependencies here
-    ],
     targets: [
         .target(
             name: "YYCalendar",
-            dependencies: [],
-            path: "Sources"),
-        .testTarget(
-            name: "YYCalendarTests",
-            dependencies: ["YYCalendar"],
-            path: "Tests"),
     ]
 )
