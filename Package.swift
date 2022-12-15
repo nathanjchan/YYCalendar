@@ -15,5 +15,6 @@ let package = Package(
     targets: [
         .target(
             name: "YYCalendar",
+            path: "YYCalendar/Classes"), // specify the custom path here
     ]
 )
