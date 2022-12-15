@@ -12,6 +12,10 @@ let package = Package(
             name: "YYCalendar",
             targets: ["YYCalendar"]),
     ],
+    dependencies: [
+        // add UIKit as a dependency
+        .package(url: "https://github.com/apple/swift-uiKit.git", from: "1.0.0"),
+    ],
     targets: [
         .target(
             name: "YYCalendar",
